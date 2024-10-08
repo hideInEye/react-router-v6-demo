@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "importHelpers": true,
+    "jsx": "react-jsx",
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "strict": false,
+    "noImplicitAny": false,
+    "paths": {
+      "@/*": ["./src/*"]
+
+      // "@api/*": ["src/api/*"]
+    },
+
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["mock/**/*", "src/**/*", "typings.d.ts"],
+  "exclude": ["node_modules"]
+}
